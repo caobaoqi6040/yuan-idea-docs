@@ -14,7 +14,7 @@ import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
-  base: '/yuan-idea-docs/',
+  base: '/',
   lang: 'zh-CN',
   title: 'yuan-idea-docs',
   description: 'a docs for yuan&amp;idea',
