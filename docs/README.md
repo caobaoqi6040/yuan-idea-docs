@@ -10,17 +10,10 @@ config:
       text: 你是我唯一无法优化的递归 ~
       actions:
         - theme: brand
-          text: 开始
+          text: 博客
           link: /blog/
         - theme: alt
-          text: Github →
-          link: https://github.com/caobaoqi6040/yuan-idea-docs
-  - type: custom
+          text: 文档 →
+          link: /notes/
+#  - type: custom
 ---
-
-## a
-
-<CardGrid>
-  <RepoCard repo="vuepress/core" />
-  <RepoCard repo="vuepress/ecosystem" />
-</CardGrid>

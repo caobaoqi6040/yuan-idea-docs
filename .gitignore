@@ -7,5 +7,6 @@ docs/.vuepress/dist
 .DS_Store
 *.log
 
+### IDEA ###
 .idea
 *.iml

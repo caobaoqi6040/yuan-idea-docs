@@ -19,17 +19,15 @@ import * as path from "node:path";
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-    logo: 'https://theme-plume.vuejs.press/plume.png',
-
+    logo: 'favicon-32x32.png',
     appearance: true,  // 配置 深色模式
-
     social: [
         {icon: 'github', link: 'https://github.com/caobaoqi6040/yuan-idea-docs'},
         {icon: 'discord', link: 'https://discord.com/'},
         {icon: 'x', link: 'https://x.com/'},
     ],
     navbarSocialInclude: ['github', 'discord', 'x'],
-    // aside: true, // 页内侧边栏， 默认显示在右侧
+    aside: true, // 页内侧边栏， 默认显示在右侧
     outline: [2, 3], // 页内大纲， 默认显示 h2, h3
 
     /**

@@ -12,7 +12,6 @@
 import {viteBundler} from '@vuepress/bundler-vite'
 import {defineUserConfig} from 'vuepress'
 import {plumeTheme} from 'vuepress-theme-plume'
-import * as path from "node:path";
 
 export default defineUserConfig({
     base: '/',
@@ -21,15 +20,14 @@ export default defineUserConfig({
     description: 'a docs for yuan&amp;idea',
 
     head: [
-        ['link', {rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png'}],
         ['link', {rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png'}],
+        ['link', {rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png'}],
     ],
 
     bundler: viteBundler(),
     shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
 
     theme: plumeTheme({
-        /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
         hostname: process.env.SITE_HOST || 'https://blog.yuan-idea.com',
 
         /* 文档仓库配置，用于 editLink */
