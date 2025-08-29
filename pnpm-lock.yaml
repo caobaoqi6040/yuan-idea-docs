@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@iconify/json':
+        specifier: ^2.2.379
+        version: 2.2.379
       '@vuepress/shiki-twoslash':
         specifier: 2.0.0-rc.112
         version: 2.0.0-rc.112(typescript@5.9.2)(vue@3.5.20(typescript@5.9.2))(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(typescript@5.9.2))(typescript@5.9.2)(vue@3.5.20(typescript@5.9.2)))
@@ -80,7 +83,7 @@ importers:
         version: 2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(typescript@5.9.2))(typescript@5.9.2)(vue@3.5.20(typescript@5.9.2))
       vuepress-theme-plume:
         specifier: 1.0.0-rc.161
-        version: 1.0.0-rc.161(@algolia/client-search@5.36.0)(@vuepress/shiki-twoslash@2.0.0-rc.112(typescript@5.9.2)(vue@3.5.20(typescript@5.9.2))(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(typescript@5.9.2))(typescript@5.9.2)(vue@3.5.20(typescript@5.9.2))))(artplayer@5.2.5)(chart.js@4.5.0)(echarts@6.0.0)(flowchart.ts@3.0.1)(markdown-it@14.1.0)(mermaid@11.10.1)(pyodide@0.28.2)(search-insights@2.17.3)(swiper@11.2.10)(typescript@5.9.2)(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(typescript@5.9.2))(typescript@5.9.2)(vue@3.5.20(typescript@5.9.2)))
+        version: 1.0.0-rc.161(@algolia/client-search@5.36.0)(@iconify/json@2.2.379)(@vuepress/shiki-twoslash@2.0.0-rc.112(typescript@5.9.2)(vue@3.5.20(typescript@5.9.2))(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(typescript@5.9.2))(typescript@5.9.2)(vue@3.5.20(typescript@5.9.2))))(artplayer@5.2.5)(chart.js@4.5.0)(echarts@6.0.0)(flowchart.ts@3.0.1)(markdown-it@14.1.0)(mermaid@11.10.1)(pyodide@0.28.2)(search-insights@2.17.3)(swiper@11.2.10)(typescript@5.9.2)(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(typescript@5.9.2))(typescript@5.9.2)(vue@3.5.20(typescript@5.9.2)))
 
 packages:
 
@@ -391,6 +394,9 @@ packages:
 
   '@floating-ui/utils@0.2.10':
     resolution: {integrity: sha512-aGTxbpbg8/b5JfU1HXSrbH3wXZuLPJcNEcZQFMxLs3oSzgtVu6nFPkbbGGUvBcUjKV2YyB9Wxxabo+HEH9tcRQ==}
+
+  '@iconify/json@2.2.379':
+    resolution: {integrity: sha512-PInpWLQi2C+fDIbBdVNcKOj9QKl7TT6sXqFqYMa4e34sMx206PiUlg0puWgo1Q1C/TDNQiy/raGWUbssOb1eyg==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -2338,6 +2344,9 @@ packages:
     resolution: {integrity: sha512-Vj7sf++t5pBD637NSfkxpHSMfWaeig5+DKWLhcqIYx6mWQz5hdJTGDVMQiJcw1ZYkhs7AazKDGpRVji1LJCZUQ==}
     engines: {node: '>=18'}
 
+  pathe@1.1.2:
+    resolution: {integrity: sha512-whLdWMYL2TwI08hn8/ZqAbrVemu0LNaNNJZX73O6qaIdCTfXutsLhMkjdENX0qhsQ9uIimo4/aQOmXkoon2nDQ==}
+
   pathe@2.0.3:
     resolution: {integrity: sha512-WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w==}
 
@@ -3177,6 +3186,11 @@ snapshots:
       '@floating-ui/core': 1.7.3
 
   '@floating-ui/utils@0.2.10': {}
+
+  '@iconify/json@2.2.379':
+    dependencies:
+      '@iconify/types': 2.0.0
+      pathe: 1.1.2
 
   '@iconify/types@2.0.0': {}
 
@@ -5561,6 +5575,8 @@ snapshots:
 
   path-type@6.0.0: {}
 
+  pathe@1.1.2: {}
+
   pathe@2.0.3: {}
 
   perfect-debounce@1.0.0: {}
@@ -6051,7 +6067,7 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  vuepress-theme-plume@1.0.0-rc.161(@algolia/client-search@5.36.0)(@vuepress/shiki-twoslash@2.0.0-rc.112(typescript@5.9.2)(vue@3.5.20(typescript@5.9.2))(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(typescript@5.9.2))(typescript@5.9.2)(vue@3.5.20(typescript@5.9.2))))(artplayer@5.2.5)(chart.js@4.5.0)(echarts@6.0.0)(flowchart.ts@3.0.1)(markdown-it@14.1.0)(mermaid@11.10.1)(pyodide@0.28.2)(search-insights@2.17.3)(swiper@11.2.10)(typescript@5.9.2)(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(typescript@5.9.2))(typescript@5.9.2)(vue@3.5.20(typescript@5.9.2))):
+  vuepress-theme-plume@1.0.0-rc.161(@algolia/client-search@5.36.0)(@iconify/json@2.2.379)(@vuepress/shiki-twoslash@2.0.0-rc.112(typescript@5.9.2)(vue@3.5.20(typescript@5.9.2))(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(typescript@5.9.2))(typescript@5.9.2)(vue@3.5.20(typescript@5.9.2))))(artplayer@5.2.5)(chart.js@4.5.0)(echarts@6.0.0)(flowchart.ts@3.0.1)(markdown-it@14.1.0)(mermaid@11.10.1)(pyodide@0.28.2)(search-insights@2.17.3)(swiper@11.2.10)(typescript@5.9.2)(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(typescript@5.9.2))(typescript@5.9.2)(vue@3.5.20(typescript@5.9.2))):
     dependencies:
       '@iconify/utils': 3.0.1
       '@iconify/vue': 5.0.0(vue@3.5.20(typescript@5.9.2))
@@ -6094,6 +6110,7 @@ snapshots:
       vuepress: 2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(typescript@5.9.2))(typescript@5.9.2)(vue@3.5.20(typescript@5.9.2))
       vuepress-plugin-md-power: 1.0.0-rc.161(artplayer@5.2.5)(esbuild@0.25.9)(markdown-it@14.1.0)(pyodide@0.28.2)(typescript@5.9.2)(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(typescript@5.9.2))(typescript@5.9.2)(vue@3.5.20(typescript@5.9.2)))
     optionalDependencies:
+      '@iconify/json': 2.2.379
       '@vuepress/shiki-twoslash': 2.0.0-rc.112(typescript@5.9.2)(vue@3.5.20(typescript@5.9.2))(vuepress@2.0.0-rc.24(@vuepress/bundler-vite@2.0.0-rc.24(@types/node@24.3.0)(typescript@5.9.2))(typescript@5.9.2)(vue@3.5.20(typescript@5.9.2)))
       swiper: 11.2.10
     transitivePeerDependencies:
