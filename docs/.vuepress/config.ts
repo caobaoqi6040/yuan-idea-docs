@@ -169,19 +169,19 @@ export default defineUserConfig({
          * 评论 comments
          * @see https://theme-plume.vuejs.press/guide/features/comments/
          */
-        // comment: {
-        //     provider: 'Giscus', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
-        //     comment: true,
-        //     repo: 'caobaoqi6040/yuan-idea-docs',
-        //     repoId: 'R_kgDOPmL1hQ',
-        //     category: 'General',
-        //     categoryId: 'DIC_kwDOPmL1hc4Cuunc',
-        //     mapping: 'pathname',
-        //     reactionsEnabled: true,
-        //     inputPosition: 'top',
-        //     darkTheme: 'dark_protanopia',
-        //     lightTheme: 'light_protanopia',
-        // },
+        comment: {
+            provider: 'Giscus', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
+            comment: true,
+            repo: 'caobaoqi6040/yuan-idea-docs',
+            repoId: 'R_kgDOP3-3xQ',
+            category: 'General',
+            categoryId: 'DIC_kwDOP3-3xc4Cv9fR',
+            mapping: 'pathname',
+            reactionsEnabled: true,
+            inputPosition: 'top',
+            darkTheme: 'dark_protanopia',
+            lightTheme: 'light_protanopia',
+        },
 
         /**
          * 资源链接替换
