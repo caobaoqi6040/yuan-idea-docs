@@ -7,16 +7,25 @@ config:
     full: true
     background: tint-plate
     hero:
-      name: Theme Plume
-      tagline: VuePress Next Theme
-      text: 一个简约的，功能丰富的 vuepress 文档&博客 主题
+      name: yuan-idea-docs
+      text: i am ikun 🌈
       actions:
         -
           theme: brand
-          text: 博客
+          text: blog
           link: /blog/
         -
           theme: alt
-          text: Github →
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+          text: notes
+          link: /notes/
+  -
+    type: custom
 ---
+
+
+## repo
+
+<CardGrid>
+  <RepoCard repo="caobaoqi6040/caobaoqi6040" provider="github"></RepoCard>
+</CardGrid>
+
