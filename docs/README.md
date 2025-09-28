@@ -1,22 +1,21 @@
 ---
-pageLayout: home
+home: true
 externalLinkIcon: false
 config:
   -
-    type: hero
-    full: true
-    background: tint-plate
+    type: doc-hero
     hero:
-      name: yuan-idea-docs
-      text: i am ikun 🌈
+      name: 迎面走来的你
+      image: /android-chrome-512x512.png
+      text: 🏀 让我蠢蠢欲动
       actions:
         -
           theme: brand
-          text: blog
+          text: 博客
           link: /blog/
         -
           theme: alt
-          text: notes
+          text: 笔记
           link: /notes/
   -
     type: custom
@@ -27,5 +26,6 @@ config:
 
 <CardGrid>
   <RepoCard repo="caobaoqi6040/caobaoqi6040" provider="github"></RepoCard>
+  <RepoCard repo="caobaoqi6040/yuan-idea-docs" provider="github"></RepoCard>
 </CardGrid>
 

@@ -11,5 +11,5 @@ export const navbar: ThemeNavItem[] = defineNavbarConfig([
     {text: '动态', link: '/blog/'},
     {text: '标签', link: '/blog/tags/'},
     {text: '归档', link: '/blog/archives/'},
-    {text: 'notes', link: '/notes/'},
+    {text: '笔记', link: '/notes/'},
 ])

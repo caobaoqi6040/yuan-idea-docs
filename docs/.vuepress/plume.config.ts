@@ -20,7 +20,7 @@ import * as path from "node:path";
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-    logo: '/favicon-32x32.png',
+    logo: '/android-chrome-512x512.png',
 
     appearance: true,  // 配置 深色模式
 

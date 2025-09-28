@@ -36,16 +36,16 @@ const dockerNote = defineNoteConfig({
     // sidebar: 'auto',
 })
 
-const javaNote = defineNoteConfig({
-    dir: 'java',
+const springAiNote = defineNoteConfig({
+    dir: 'spring-ai',
     // `dir` 所指向的目录中的所有 markdown 文件，其 permalink 需要以 `link` 配置作为前缀
     // 如果 前缀不一致，则无法生成侧边栏。
     // 所以请确保  markdown 文件的 permalink 都以 `link` 开头
-    link: '/java/',
+    link: '/spring-ai/',
     // 手动配置侧边栏结构
     sidebar: [
-        {text: "java-01", link: "java-01.md", icon: "ri:bowl-line"},
-        {text: "java-02", link: "java-02.md", icon: "ri:brain-line"},
+        {text: "什么是 spring ai", link: "spring-ai-01.md", icon: "ri:bowl-line"},
+        {text: "ai 相关概念", link: "spring-ai-02.md", icon: "ri:brain-line"},
     ],
     // 根据文件结构自动生成侧边栏
     // sidebar: 'auto',
@@ -59,5 +59,5 @@ const javaNote = defineNoteConfig({
 export const notes: ThemeNoteListOptions = defineNotesConfig({
     dir: 'notes',
     link: '/',
-    notes: [dockerNote, javaNote],
+    notes: [dockerNote, springAiNote],
 })
