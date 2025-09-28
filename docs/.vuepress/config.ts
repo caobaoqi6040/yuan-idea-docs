@@ -11,6 +11,7 @@
 
 import type {UserConfig} from 'vuepress'
 import {defineUserConfig} from 'vuepress'
+import path from 'node:path'
 import {viteBundler} from '@vuepress/bundler-vite'
 import {plumeTheme} from 'vuepress-theme-plume'
 
@@ -23,7 +24,11 @@ export default defineUserConfig({
         // 配置站点图标
         ['link', {rel: 'icon', type: 'image/png', href: '/favicon-32x32.png'}],
     ],
-
+    alias: {
+        '~/theme': path.resolve(__dirname, './themes'),
+        '~/components': path.resolve(__dirname, './themes/components'),
+        '~/composables': path.resolve(__dirname, './themes/composables'),
+    },
     bundler: viteBundler(),
     shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
 

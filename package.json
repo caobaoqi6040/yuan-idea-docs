@@ -42,6 +42,7 @@
   },
   "dependencies": {
     "@iconify/json": "^2.2.379",
+    "@vercel/speed-insights": "^1.2.0",
     "@vuepress/shiki-twoslash": "2.0.0-rc.112",
     "artplayer": "^5.2.5",
     "chart.js": "^4.5.0",

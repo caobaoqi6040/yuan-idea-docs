@@ -2,25 +2,22 @@
 home: true
 externalLinkIcon: false
 config:
-  -
-    type: doc-hero
+  - type: doc-hero
     hero:
       name: 迎面走来的你
       image: /android-chrome-512x512.png
       text: 🏀 让我蠢蠢欲动
       actions:
-        -
-          theme: brand
+        - theme: brand
           text: 博客
           link: /blog/
-        -
-          theme: alt
+        - theme: alt
           text: 笔记
           link: /notes/
-  -
-    type: custom
+  - type: custom
 ---
 
+<div>
 
 ## repo
 
@@ -29,3 +26,10 @@ config:
   <RepoCard repo="caobaoqi6040/yuan-idea-docs" provider="github"></RepoCard>
 </CardGrid>
 
+<SpeedInsights />
+
+<script setup>
+import SpeedInsights from '~/components/speed-insights.vue'
+</script>
+
+</div>
