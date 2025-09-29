@@ -9,3 +9,5 @@ docs/.vuepress/dist
 
 .idea
 *.iml
+
+hook/deploy-hook.http
